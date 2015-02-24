@@ -9,3 +9,6 @@ studentRoster.controller('StudentsCtrl', function StudentsCtrl($scope) {
     $scope.students.splice(index, 1);
   };
 });
+studentRoster.controller('FieldTripsCtrl', function FieldTripsCtrl($scope) {
+  $scope.studentsWithPermission = [{ name: "Jane Doe"}, { name: "John Doe"}];
+});
